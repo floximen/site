@@ -1,21 +1,12 @@
 
-/* Для всего сайта */
-
-* {
-
-	margin: 0;
-
-	padding: 0;
-
-	overflow-x: hidden;
-
-}
-
-/* Для всего сайта */
-
 body {
 
-    overflow-y: hidden;
+
+    margin: 0;
+
+  	padding: 0;
+
+  	overflow-x: hidden;
 
     background: rgb(250,250,250);
 }
@@ -138,7 +129,7 @@ body {
 
 	z-index: 1;
 
-	bottom: 380px;
+	bottom: 430px;
 
 	margin-left: 1250px;
 
@@ -231,6 +222,8 @@ body {
 
 	position: absolute;
 
+	outline: none;
+
 	border-radius: 12px;
 
 	width: 10%;
@@ -244,6 +237,8 @@ body {
 	font-family: 'lobster', cursive;
 
 	background-color: rgb(102,205, 102);
+
+	bottom: 185px;
 }
 
 /* Кнопка  */
@@ -257,6 +252,8 @@ body {
 	left: 350px;
 
 	margin-top: 15px;
+
+	bottom: 175px;
 
 
 }
@@ -284,6 +281,8 @@ body {
 	font-size: 13px;
 
 	font-family: 'lobster', cursive;
+
+	bottom: 175px;
 }
 
 /* Текст к картинке   */
@@ -449,6 +448,8 @@ body {
 
 	overflow-y: hidden;
 
+	overflow-x: hidden;
+
 }
 
 .main_section_img {
@@ -470,7 +471,7 @@ body {
 
 	margin-left: 350px;
 
-	bottom: 960px;
+	bottom: 940px;
 
 	color: rgb(250,115,0);
 
@@ -507,7 +508,7 @@ body {
 	
 	left: 480px;
 
-	top: 150px;
+	top: 130px;
 
 	font-size: 20px;
 
@@ -615,7 +616,7 @@ body {
 
 	left: 100px;
 
-	bottom: -1720px;
+	bottom: -1740px;
 
 	text-decoration: none;
 
@@ -639,7 +640,7 @@ body {
 
 	left: 400px;
 
-	top: 2320px;
+	top: 2340px;
 }
 
 /* Текст-ссылка в футере 1 */
@@ -660,7 +661,7 @@ body {
 
 	left: 700px;
 
-	top: 2320px;
+	top: 2340px;
 
 }
 
@@ -672,7 +673,7 @@ body {
 
 	left: 1100px;
 
-	top: 2330px;
+	top: 2360px;
 }
 
 .social_fb_two {
@@ -681,7 +682,7 @@ body {
 
 	left: 1150px;
 
-	top: 2330px;
+	top: 2360px;
 
 }
 
@@ -691,7 +692,7 @@ body {
 
 	left: 1200px;
 
-	top: 2330px;
+	top: 2360px;
 }
 
 .social_Youtube_two {
@@ -700,5 +701,5 @@ body {
 
 	left: 1250px;
 
-	top: 2330px;
+	top: 2360px;
 }
