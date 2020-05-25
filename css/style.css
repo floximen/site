@@ -51,7 +51,7 @@ body {
 
 	position: relative;
 
-	top: 60px;
+	top: 50px;
 
 }
 
@@ -434,7 +434,7 @@ body {
 
 .main_section {
 
-	position: relative;
+	margin: auto;
 
 	margin-bottom: 600px;
 
@@ -444,7 +444,7 @@ body {
 
 	height: 1000px;
 
-	left: 300px;
+	margin-left: 300px;
 
 	overflow-y: hidden;
 
@@ -464,14 +464,13 @@ body {
 
 .img_text {
 
-
-	position: absolute;
-
+	position: relative;
+	
 	font-size: 30px;
 
 	margin-left: 350px;
 
-	bottom: 940px;
+	bottom: 280px;
 
 	color: rgb(250,115,0);
 
@@ -481,7 +480,7 @@ body {
 
 .text_zagolovoc {
 
-	position: absolute;
+	position: relative;
 
 	color: rgb(24,255,51);
 
@@ -491,7 +490,7 @@ body {
 
 	margin-left: 350px;
 
-	bottom: 900px;
+	bottom: 280px;
 }
 
 /*  Тект к картинке  */
@@ -500,15 +499,15 @@ body {
 
 .main-button {
 
-	position: absolute;
+	position: relative;
 
 	border-radius: 12px;
 
 	width: 10%;
 	
-	left: 480px;
+	left: 500px;
 
-	top: 130px;
+	bottom: 250px;
 
 	font-size: 20px;
 
@@ -537,7 +536,7 @@ body {
 
 .img_text_two {
 
-	position: absolute;
+	position: relative;
 
 	font-size: 30px;
 	
@@ -545,7 +544,7 @@ body {
 
 	font-family: 'Permanent Marker ', cursive;
 
-	top: 450px;
+	bottom: 80px;
 
 	left: 50px;
 
@@ -553,7 +552,7 @@ body {
 
 .text_zagolovoc_two {
 
-	position: absolute;
+	position: relative;
 
 	color: rgb(24,255,51);
 
@@ -562,6 +561,8 @@ body {
 	font-family: "Comfortaa", cursive;
 
 	left: 50px;
+
+	bottom: 80px;
 }
 
 /*  Тект к картинке 2 */
@@ -570,7 +571,7 @@ body {
 
 .main-button_two {
 
-	position: absolute;
+	position: relative;
 
 	border-radius: 12px;
 
@@ -583,8 +584,8 @@ body {
 	background-color: rgb(255,102, 0);
 
 	left: 200px;
-
-	top: 620px;
+	
+	bottom: 50px;
 }
 
 /* Кнопка 3 */
@@ -593,7 +594,7 @@ body {
 
 	border-top: 2px solid blue;
 
-	height: 100px;
+	height: 250px;
 
 	background: rgb(31,24,112);
     
@@ -612,11 +613,11 @@ body {
 
 	text-transform: uppercase;
 
-	position: absolute;
+	position: relative;
 
 	left: 100px;
-
-	bottom: -1740px;
+	
+	top: 30px;
 
 	text-decoration: none;
 
@@ -636,11 +637,11 @@ body {
 
 	font-family: 'lobster', cursive;
 
-	position: absolute;
+	position: relative;
 
 	left: 400px;
 
-	top: 2340px;
+	bottom: 20px;
 }
 
 /* Текст-ссылка в футере 1 */
@@ -657,11 +658,11 @@ body {
 
 	font-family: 'lobster', cursive;
 
-	position: absolute;
+	position: relative;
 
 	left: 700px;
 
-	top: 2340px;
+	bottom: 70px;
 
 }
 
@@ -669,37 +670,38 @@ body {
 
 .social_twitter_two {
 
-	position: absolute;
+	position: relative;
 
 	left: 1100px;
-
-	top: 2360px;
+	
+	bottom: 100px;
+	
 }
 
 .social_fb_two {
 
-	position: absolute;
+	position: relative;
 
 	left: 1150px;
 
-	top: 2360px;
+	bottom: 120px;
 
 }
 
 .social_VK_two {
 
-	position: absolute;
+	position: relative;
 
 	left: 1200px;
 
-	top: 2360px;
+	bottom: 145px;
 }
 
 .social_Youtube_two {
 
-	position: absolute;
+	position: relative;
 
 	left: 1250px;
 
-	top: 2360px;
+	bottom: 165px;
 }
